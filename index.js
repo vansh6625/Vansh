@@ -1,3 +1,24 @@
+// pages/index.js
+
+export default function Home() {
+  return (
+    <div style={{
+      minHeight: "100vh",
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      justifyContent: "center",
+      fontFamily: "sans-serif",
+      background: "#f1f5f9"
+    }}>
+      <h1>Welcome to Next.js!</h1>
+      <p>
+        Your project is set up and ready to go.<br />
+        Edit <code>pages/index.js</code> to get started.
+      </p>
+    </div>
+  );
+}
 import Head from "next/head";
 import Image from "next/image";
 npm install
